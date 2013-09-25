@@ -11,7 +11,7 @@ set :user, "root"
 set :runner, "deploy"
 set :use_sudo, false
 set :password, "" # password for remote server
-set :domain, "" #domain name
+# set :domain, "" #domain name
 set :application, "pricehub" # app name
 set :repository,  "git@bitbucket.org:myronlo/pricehub.com.git" #repository url
 set :application_dir, "/home/#{user}/rails_app/#{application}/production" # application directory
